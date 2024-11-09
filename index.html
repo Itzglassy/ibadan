@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>g
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="trial.css">
+</head>
+<body>
+    <div>
+        <div class="foto">
+            <img src="images/Picture1.jpg" alt="" width="350px">
+            <img src="images/images.jpg" alt="" width="350px">
+        </div>
+        
+        <h1>
+            THE CITY OF IBADAN
+        </h1>
+    </div >    
+    <P id="demo">Ibadan is the capital and most populous city of Oyo State, in Nigeria. It is the third-largest city by population in Nigeria after Lagos and Kano, with a total population of 3,649,000 as of 2021, and over 6 million people within its metropolitan area. It is one of the country's largest cities by geographical area. At the time of Nigeria's independence in 1960, Ibadan was the largest and most populous city in the country, and the second-most populous in Africa behind Cairo. Ibadan is ranked one of the fastest-growing cities in sub-Saharan Africa, according to the UN Human Settlements Program (2022).[5] It is also ranked third in West Africa in the tech startups index. Ibadan joined the UNESCO Global Network of Learning Cities in 2016. its one of the most stressful, difficult and expensive places to live in.</P>
+        <button id="button">Click here</button>
+
+
+
+
+<script>
+  // select the button and the div
+  const button = document.getElementById('button');
+  const div = document.getElementById('demo');
+
+  // define the function to change the HTML content
+  function changeContent() {
+    div.innerHTML = '<p>Hey handsome, shocked right? well i just wanted to do something a little different... Everyday with you feels like a dream i never want to wake up from. From the litttle moments to the big adventures, you fill my heart with so much joy, warmth and love. Im so grateful for your kindness, your laughter and the way you always know how to make everything better. You make me a better person just by being yourself. I wish youn could have the ability to see yourself through my eyes, then youll know just how special you are to me. i just thought you should know that apart from money (wey even you dey find everyday) your my favorite reason to smile. I LOVE YOU SO MUCH KAY</p>';
+  }
+
+  // add event listener to the button
+  button.addEventListener('click', changeContent);
+</script>
+</body>
+</html>

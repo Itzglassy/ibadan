@@ -1,0 +1,22 @@
+button {
+    border-radius: 40px;
+    size: 20px;
+    color: white;
+    background-color: rgb(104, 4, 104);
+}
+body {
+    font-size: 20px;
+    background-color: rgb(85, 83, 83);
+    font-style: italic;
+}
+h1 {
+    color: rgb(221, 213, 221) ;
+    font-style: normal;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.foto {
+    display: flex;
+    padding-left: 40px;
+    justify-content: space-between;
+}
